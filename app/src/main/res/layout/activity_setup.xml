@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="地图横竖轴条数:"
+                android:gravity="right"
+                android:paddingRight="5dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:id="@+id/setup_et_mapx"
+                android:hint="默认是：100"
+                android:inputType="number"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="地图竖轴条数:"
+                android:gravity="right"
+                android:paddingRight="5dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:id="@+id/setup_et_mapy"
+                android:hint="默认是：100"
+                android:inputType="number"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="昵称:"
+                android:gravity="right"
+                android:paddingRight="5dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:id="@+id/setup_et_username"
+                android:hint="昵称（必填）"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_width="20dp"
+                android:layout_height="1dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:text="@string/setup_jump"
+                android:id="@+id/setup_bt_jump"
+                android:layout_height="wrap_content"/>
+            <View
+                android:layout_width="60dp"
+                android:layout_height="1dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:text="@string/setup_start"
+                android:id="@+id/setup_bt_start"
+                android:layout_height="wrap_content"/>
+            <View
+                android:layout_width="20dp"
+                android:layout_height="1dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</layout>

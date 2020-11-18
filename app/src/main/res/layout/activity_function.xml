@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="320dp"
+            android:layout_marginTop="80dp"
+            android:id="@+id/bt_function_start"
+            android:text="@string/function_direct_start"
+            android:textSize="30sp"
+            android:background="@color/function_button_color"
+            android:textColor="@color/function_text_color"
+            android:layout_height="60dp"/>
+        <Button
+            android:layout_width="320dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/bt_function_setup"
+            android:text="@string/function_init_setup"
+            android:textSize="30sp"
+            android:background="@color/function_button_color"
+            android:textColor="@color/function_text_color"
+            android:layout_height="60dp"/>
+        <Button
+            android:layout_width="320dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/bt_function_keep"
+            android:text="@string/function_keep_game"
+            android:textSize="30sp"
+            android:background="@color/function_button_color"
+            android:textColor="@color/function_text_color"
+            android:layout_height="60dp"/>
+        <Button
+            android:layout_width="320dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/bt_function_module"
+            android:text="@string/function_module"
+            android:textSize="30sp"
+            android:background="@color/function_button_color"
+            android:textColor="@color/function_text_color"
+            android:layout_height="60dp"/>
+        <Button
+            android:layout_width="320dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/bt_function_about"
+            android:text="@string/function_about"
+            android:textSize="30sp"
+            android:background="@color/function_button_color"
+            android:textColor="@color/function_text_color"
+            android:layout_height="60dp"/>
+
+
+    </LinearLayout>
+</layout>

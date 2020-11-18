@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="45dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/dialog_title"
+            android:gravity="center"
+            android:text="@string/dialog_tv_title"
+            android:paddingLeft="20dp"
+            android:textColor="@color/dialog_title_color"
+            android:textSize="23sp"
+            android:textStyle="bold"
+            android:layout_height="45dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/dialog_tv_cancel"
+            android:textColor="@color/dialog_title_cancel_color"
+            android:id="@+id/dialog_cancel"
+            android:textSize="17sp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:background="#cccccc"
+        android:layout_height="1px"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/dialog_lv"
+        android:divider="#fff"
+        android:dividerHeight="0.5dp"
+        android:layout_height="300dp"/>
+
+</LinearLayout>

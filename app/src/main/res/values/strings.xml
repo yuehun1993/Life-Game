@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">android生命游戏</string>
+    <string name="function_direct_start">直接开始</string>
+    <string name="function_init_setup">基础设置</string>
+    <string name="function_keep_game">保存的游戏</string>
+    <string name="function_module">模块</string>
+    <string name="function_about">关于</string>
+    <string name="dialog_common_et">保存的文件名</string>
+    <string name="dialog_tv_title">选项</string>
+    <string name="dialog_tv_cancel">取消</string>
+    <string name="dialog_tv_title_config">配置</string>
+    <string name="app_cancel">取消</string>
+    <string name="app_determine">确定</string>
+    <string name="setup_jump">跳过</string>
+    <string name="setup_start">开始</string>
+    <string name="keep_game_title">保存的游戏</string>
+</resources>

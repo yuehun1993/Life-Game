@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="chessBg">#3338D0BF</color>
+    <color name="function_button_color">#A69f64</color>
+    <color name="function_text_color">#332442</color>
+    <color name="gameview_line_color">#33CCCCCC</color>
+    <color name="dialog_title_color">#0000FF</color>
+    <color name="dialog_title_cancel_color">#880000</color>
+
+
+
+</resources>
